@@ -62,7 +62,7 @@
     /*Variáveis referenciadas.*/ /*
 
         $a = 10;
-        $b = &$a;
+        $b = &$a; 
 
         echo "$a<br>$b<br><br>";
 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula08</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 540px;
+        }
+
+        form, form div{
+            display: flex;
+            flex-direction: column;
+        }
+
+        form div{
+            margin-bottom: 15px;
+        }
+
+        button{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="aula08.php">
+        <div>
+            <label>Insira um valor:</label>
+            <input type="text" name="valor1">
+        </div>
+
+        <button type="submit">Mostrar raíz quadrada</button>
+    </form>
+</body>
+</html>

@@ -75,6 +75,7 @@
         } else {
             print("Pessoas com $idade anos de idade não vota.");
         }
+
     ?>
 </body>
 </html>

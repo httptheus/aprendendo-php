@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex1.css" type="text/css">
+    <title>ex1</title>
+</head>
+<body>
+    <form method="post" action="ex1.php">
+        <div style="margin-bottom: 12px;">
+            <label>Insira um número:</label>
+            <input type="text" name="numInput">
+        </div>
+        <div>
+            <div>
+                <input type="radio" name="tipoOp" value="dobro" checked>
+                <label>Ver dobro do número.</label>
+            </div>
+            <div>
+                <input type="radio" name="tipoOp" value="cubo">
+                <label>Elevar ao cubo.</label>
+            </div>
+            <div>
+                <input type="radio" name="tipoOp" value="raizq">
+                <label>Ver raíz quadrada do número.</label>
+            </div>
+        </div>
+        <div>
+            <button type="submit">Verificar</button>
+        </div>
+    </form>
+</body>
+</html>

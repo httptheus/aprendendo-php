@@ -1,0 +1,97 @@
+* {
+    font-family: "Rockwell";
+}
+
+::selection{
+    background-color: rgb(101, 184, 0);
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 250, 135);
+
+    height: 510px;
+}
+
+form{
+    padding: 10px;
+
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+    form div{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+    }
+
+    form div div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin-top: 4px;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+        form div div label{
+            margin: 0px;
+        }
+
+    form label{
+        margin-bottom: 4px;
+    }
+
+    form input{
+        padding: 6px;
+        text-align: center;
+        font-family: monospace;
+        letter-spacing: 2px;
+    }
+
+    form input[type=radio]{
+        margin: 0px;
+        margin-right: 6px;
+        width: 20px;
+        height: 20px;
+
+        accent-color: rgb(0, 164, 0);
+    }
+
+    form select, form select option{
+        padding: 6px;
+    }
+
+    form button{
+        cursor: pointer;
+        margin-top: 18px;
+        margin-bottom: 6px;
+        padding: 10px;
+        
+        font-family: monospace;
+        font-weight: 900;
+        color: white;
+        background-color: rgb(0, 164, 0);
+        border: none;
+        border-radius: 6px;
+        box-shadow: 0px 6px rgb(0, 101, 0);
+
+        transition: 0.2s;
+    }
+
+    form button:hover{
+        background-color: rgb(0, 219, 0);
+    }
+
+    form button:active{
+        transform: translateY(3px);
+        box-shadow: 0px 3px rgb(0, 101, 0);
+    }

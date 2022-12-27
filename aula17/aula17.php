@@ -76,7 +76,7 @@
 
     */
 
-    /* str_replace() - seleciona um valor string e altera um valor informado por outro valor.*/
+    /* str_replace() ou str_ireplace() - seleciona um valor string e altera um valor informado por outro valor.*/
 
         $preco = 2.56534;
         $preco = number_format($preco, 2);
